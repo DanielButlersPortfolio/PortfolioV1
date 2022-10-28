@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="this is my Portfolio" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+    <link href="./favicon.png" rel="icon" type="image/png" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Daniel Butler</title>
+  </head>
+
+  <body id="top">
+    <header class="header sticky">
+      <a href="#">
+        <img src="./img/DANIEL.svg" alt="Logo" class="logo" />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#top" class="main-nav-link" tabindex="1">ME</a></li>
+          <li><a href="#skills" class="main-nav-link" tabindex="2">SKILLS</a></li>
+          <li><a href="#hobby" class="main-nav-link" tabindex="3">HOBBY'S</a></li>
+          <li><a href="#contact" class="main-nav-link" tabindex="4">CONTACT</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon name="menu-outline" class="ico-mobile-nav"></ion-icon>
+        <ion-icon class="ico-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero" id="hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Daniel Butler</h1>
+            <p class="hero-description">
+              Hi i'm Daniel
+              <br />
+              This is a website/portfolio about me and what I like doing. If you want to know more about me just keep on scrolling. &dArr;
+            </p>
+          </div>
+          <div class="hero-img-box">
+            <img src="./img/hobbys/hobby2.jpg" alt="Photo-Daniel" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-skills" id="skills">
+        <div class="container center-text">
+          <span class="subheading">skills</span>
+          <h2 class="heading-secondary">What I can do at the moment</h2>
+        </div>
+
+        <div class="container grid grid--3-cols">
+          <a href="#skills" target="" class="projects">
+            <!-- set target to _blank when adding link -->
+            <img src="./img/your-program.com.jpeg" alt="your-program" class="project-img" />
+            <div class="project-content">
+              <h3 class="project-title">your-program</h3>
+              <p class="project-description">
+                Your-program.com is a website my friend and I created. The idea in the beginning was to code a website from which people can download free scripts that automate different things. We
+                then changed it a bit because my friend was very new to coding and a few people in our class wanted to learn python. So now you can download simple beginner python scripts as source
+                code.
+              </p>
+            </div>
+          </a>
+
+          <a href="#skills" target="" class="projects">
+            <!-- set target to _blank when adding link -->
+            <img src="./img/app.grosshaus.dev.jpeg" alt="your-program" class="project-img" />
+            <div class="project-content">
+              <h3 class="project-title">Noah</h3>
+              <p class="project-description">
+                Noah is a task management application that the Grosshaus IT department is developing, It’s meant to make distributing and planning work easier and digital. I helpt develop parts of the
+                app and in doing so, I also learned how to manage large amounts of code and use tools like Git or Trello.
+              </p>
+            </div>
+          </a>
+
+          <div class="list-of-skills">
+            <h3 class="list-of-skills-title">Experience:</h3>
+            <ul class="list-of-skills-ul">
+              <li class="skill">
+                <ion-icon name="logo-html5" class="skill-ico"></ion-icon>
+                <span class="skill-name">HTML</span>
+              </li>
+              <li class="skill">
+                <ion-icon name="logo-css3" class="skill-ico"></ion-icon>
+                <span class="skill-name">CSS</span>
+              </li>
+              <li class="skill">
+                <ion-icon name="logo-sass" class="skill-ico"></ion-icon>
+                <span class="skill-name">SASS</span>
+              </li>
+              <li class="skill">
+                <ion-icon name="logo-javascript" class="skill-ico"></ion-icon>
+                <span class="skill-name">JAVA SCRIPT</span>
+              </li>
+              <li class="skill">
+                <ion-icon name="logo-python" class="skill-ico"></ion-icon>
+                <span class="skill-name">PYTHON</span>
+              </li>
+              <li class="skill">
+                <ion-icon name="terminal-outline" class="skill-ico"></ion-icon>
+                <span class="skill-name">BATCH</span>
+              </li>
+              <li class="skill">
+                <ion-icon name="logo-microsoft" class="skill-ico"></ion-icon>
+                <span class="skill-name">C#</span>
+              </li>
+              <li class="skill">
+                <ion-icon name="git-branch" class="skill-ico"></ion-icon>
+                <span class="skill-name">GIT</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="container center-text github-link" tabindex="5">
+          <a href="https://github.com/DanielButlerIsMyName" target="_blank" class="subheading git-link"> visit my Github &rarr; </a>
+        </div>
+      </section>
+
+      <section class="section-hobby" id="hobby">
+        <div class="hobby-container">
+          <span class="subheading">HOBBYS</span>
+          <h2 class="heading-secondary">What I like doing in my free time</h2>
+
+          <div class="hobbys">
+            <figure class="hobby">
+              <img class="hobby-img" src="./img/hobbys/hobby12.jpg" alt="hobby photo" />
+              <blockquote class="hobby-text">Coding is probably the thing I spend the most time doing, I like automating things and learning more about computers.</blockquote>
+              <p class="hobby-name">&mdash; Coding</p>
+            </figure>
+            <figure class="hobby">
+              <img class="hobby-img" src="./img/hobbys/hobby5.jpg" alt="hobby photo" />
+              <blockquote class="hobby-text">With my school I do paragliding. I like the feeling of flying and being high up in the air.</blockquote>
+              <p class="hobby-name">&mdash; Paragliding</p>
+            </figure>
+
+            <figure class="hobby">
+              <img class="hobby-img" src="./img/hobbys/hobby11.jpg" alt="hobby photo" />
+              <blockquote class="hobby-text">In summer I like to go longboarding. And in winter I like to go snowboarding.</blockquote>
+              <p class="hobby-name">
+                &mdash; Longboarding
+                <br />
+                <br />
+                &mdash; Snowboarding
+              </p>
+            </figure>
+
+            <figure class="hobby">
+              <img class="hobby-img" src="./img/hobbys/hobby7.jpg" alt="hobby photo" />
+              <blockquote class="hobby-text">I enjoy long hikes that take multiple days.</blockquote>
+              <p class="hobby-name">&mdash; Hiking</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item first-to-go">
+            <img src="./img/hobbys/hobby2.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item first-to-go">
+            <img src="./img/hobbys/hobby1.jpg" alt="photo of my hobby" />
+          </figure>
+          <figure class="gallery-item first-to-go">
+            <img src="./img/hobbys/hobby4.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby5.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby7.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item first-to-go">
+            <img src="./img/hobbys/hobby3.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby8.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby9.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby10.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby6.jpg" alt="photo of my hobby" />
+          </figure>
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby11.jpg" alt="photo of my hobby" />
+          </figure>
+
+          <figure class="gallery-item">
+            <img src="./img/hobbys/hobby12.jpg" alt="photo of my hobby" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-cta" id="contact">
+        <div class="container center-text">
+          <span class="subheading">CONTACT</span>
+          <h2 class="heading-secondary">want to contact me?</h2>
+        </div>
+        <div class="container cta">
+          <div class="cta-text-box">
+            <h2 class="heading-mail">Send an e-mail</h2>
+
+            <form class="cta-form" method="post">
+              <div class="cta-message-box">
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input id="full-name" type="text" placeholder="Daniel Butler" required tabindex="6" />
+                </div>
+
+                <div>
+                  <label id="email" for="email">E-mail</label>
+                  <input type="email" placeholder="me@example.com" required tabindex="7" id="mail" />
+                </div>
+
+                <div>
+                  <label id="email" for="email"></label>
+                  <button class="btn btn-sendmail" type="button" name="submit" tabindex="9">SEND NOW</button>
+                </div>
+              </div>
+
+              <div class="cta-message-box">
+                <label id="text" for="text">Message</label>
+                <textarea name="text" placeholder="Enter text" class="bigger-cta-box" tabindex="8"></textarea>
+              </div>
+            </form>
+          </div>
+
+          <div class="cta-img-box" role="img" aria-label="a photo"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--5-cols">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img src="./img/DANIEL.svg" alt="Logo" class="logo" />
+          </a>
+
+          <p class="copyright">
+            Copyright &copy;
+            <span class="year">2050</span>
+            by me, Inc.
+            <br />
+            All rights reserved
+          </p>
+        </div>
+        <div class="address col">
+          <p class="footer-heading">Contact:</p>
+          <address class="contacts">
+            <p>Ammthausgasse 12, 3011 Bern</p>
+            <br />
+            <p>
+              <a href="tel:+41336811769">+41 77 486 78 09</a>
+              <br />
+              <a href="mailto:d.butler13@outook.com">d.butler13@outlook.com</a>
+            </p>
+          </address>
+        </div>
+        <nav class="nav-col"></nav>
+        <nav class="nav-col"></nav>
+        <nav class="nav-col"></nav>
+      </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="/js/script.js"></script>
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+  </body>
+</html>
